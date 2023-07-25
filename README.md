@@ -25,9 +25,7 @@ Then, I ran regression and calculated Fama French 3 Factor Alpha. The regression
 
 From the regression output, the asset management firm does hold the class of stock as they claimed on their website (i.e., BlackRock Russell 2000 ETF fund does hold small stock in their portfolio). However, JPMorgan U.S. Research Enhanced Equity Fund(Jjm_lcap) said they hold stock in which the company has growth potential. But we saw that JPMorgan U.S. Research Enhanced Equity Fund actually holds value stocks(>0), and the t-stat shows h is truly greater than 0.  
 
-From the table, the BlackRock SP-500 Growth ETF fund had a positive alpha. Thus, Let's examine further into this fund.
-
-I constructed the BlackRock SP-500 Growth ETF fund benchmark and plotted return over time by investment of 1 dollar, and I found
+From the table, the BlackRock SP-500 Growth ETF fund had a positive alpha. Thus, Let's examine further into this fund. I constructed the BlackRock SP-500 Growth ETF fund benchmark and plotted return over time by investment of 1 dollar, and I found
 
 ![](https://github.com/ZedongDaniel/Fund-Performance-Evaluation/blob/9f05e54170af5b7083bd527b3589e956c811cd4d/images/JPMorgan%20Equity%20Income%20Fund.jpg)  
 
