@@ -16,7 +16,8 @@ Then, I ran a Monte Carlo simulation to simulate investing one dollar into each 
 ![](https://github.com/ZedongDaniel/Fund-Performance-Evaluation/blob/6680eba7d7c838dce6a2441081ea9c88b0f35b97/images/simulation.jpg)  
 Then, I ran regression and calculated Fama French 3 Factor Alpha. The regression result is below:
 
-|           | jpm_lcap | br_lcap | jpm_scap | br_scap | jpm_eqincome | br_china |
+|    name   | jpm_lcap | br_lcap | jpm_scap | br_scap | jpm_eqincome | br_china |
+| -------   | -------- | ------- |--------  | ------- | -----------  |----------- |
 | $\alpha$  | -0.0002  | 0.0006  | -0.0007  | -0.0015 |   0.0002     | -0.0017  |
 | $beta$    | 1.0031   | 1.0388  | 0.9569   | 1.0056  |  0.8475      | 0.5586   |
 | $s$       | -0.1074  | -0.1987| 0.4587    | 0.8481  | -0.1240      | 0.1845   | 
