@@ -23,7 +23,7 @@ Then, I ran regression and calculated Fama French 3 Factor Alpha. The regression
 | $s$       | -0.1074  | -0.1987| 0.4587    | 0.8481  | -0.1240      | 0.1845   | 
 | $h$       | 0.0270   | -0.2648 | 0.1614   | 0.1824   | 0.2694      | -0.0006  |
 
-
+From the regression output, we can tell asset management firm does hold the class of stock as they claimed on their website (i.e., BlackRock Russell 2000 ETF fund does hold small stock in their portfolio). However, JPMorgan U.S. Research Enhanced Equity Fund(Jjm_lcap) said they hold stock in which the company has growth potential. But we saw that JPMorgan U.S. Research Enhanced Equity Fund actually holds value stocks($h$>0), and the t-stat shows $h$ is truly greater than 0.  
 
 
 
